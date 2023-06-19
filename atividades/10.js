@@ -11,7 +11,6 @@ function media(list){
             c =c+element
             r = c
         });
-        console.log(r)
         var cM = r/list[e].length
         console.log(`o aluno ${e} te a media ${cM}`)
     }
